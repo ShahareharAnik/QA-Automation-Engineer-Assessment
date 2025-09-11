@@ -1,0 +1,14 @@
+{
+  "name": "playwright-practice-shop",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test src/tests",
+    "show-report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "typescript": "^5.0.0"
+  }
+}
